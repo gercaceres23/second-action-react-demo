@@ -1,0 +1,4 @@
+- name: Install and test
+  run: |
+    npm ci
+    npm test
