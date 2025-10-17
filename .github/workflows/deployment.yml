@@ -43,11 +43,3 @@ jobs:
 
       - name: Build project
         run: npm run build
-<<<<<<< HEAD
-      - name: Deploy
-        run: echo "Simulated deployment complete!"
-=======
-
-      - name: Deploy
-        run: echo "Simulated deployment complete ........"
->>>>>>> parent of 0a30df4 (Run jobs sequentially with needs keyword)
