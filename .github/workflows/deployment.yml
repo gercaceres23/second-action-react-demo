@@ -6,7 +6,8 @@ on:
       - main
       - dev-*      # any branch starting with “dev-”
       - feat/**    # any branch starting with “feat/” (can include slashes)
-
+    paths-ignore:
+    - .github/workflows/**
 
   pull_request:
     types: [opened, reopened, edited]
